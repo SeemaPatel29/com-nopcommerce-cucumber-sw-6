@@ -1,0 +1,1093 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4418164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should see products are arrange in Alphabatical order",
+        "description": "",
+        "id": "computer-menu-test;user-should-see-products-are-arrange-in-alphabatical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 1016030100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107213600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1334233500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Computer Tab",
+            "match": {
+              "location": "ComputerPageSteps.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 486028000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Desktop menu",
+            "match": {
+              "location": "ComputerPageSteps.iClickOnDesktopMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189595800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Sort By position Name: Z to A",
+            "match": {
+              "location": "ComputerPageSteps.iSelectSortByPositionNameZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248109600,
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found\n  (Session info: chrome\u003d113.0.5672.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dd53c9acfb72504d88f7667578669776, getElementText {id\u003d93EB3FCFEC3A81554C775ED91BBBC1E3_element_40}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\seema\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56712}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56712/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (dd53c9acfb72504d88f7667578669776)] -\u003e tag name: h2]\nSession ID: dd53c9acfb72504d88f7667578669776\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)\r\n\tat com.nopcommerce.demo.pages.DesktopPage.defaultProductList(DesktopPage.java:43)\r\n\tat com.nopcommerce.demo.steps.ComputerPageSteps.iShouldVerifyTheProductsAreArrangeInDescendingOrder(ComputerPageSteps.java:35)\r\n\tat ✽.Then I should verify the Products are arrange in Descending order.(ComputerMenu.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I should verify the Products are arrange in Descending order.",
+            "match": {
+              "location": "ComputerPageSteps.iShouldVerifyTheProductsAreArrangeInDescendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer menu Test",
+    "description": "",
+    "id": "computer-menu-test",
+    "keyword": "Feature",
+    "uri": "ComputerMenu.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3153767300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to Cell Phone page successfully",
+        "description": "",
+        "id": "electronic-menu-test;user-should-navigate-to-cell-phone-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 780860100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219051100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I mouse hover to Electronics Tab",
+            "match": {
+              "location": "EletronicSteps.iMouseHoverToElectronicsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1158408000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover and click on Cell Phones tab",
+            "match": {
+              "location": "EletronicSteps.iMouseHoverAndClickOnCellPhonesTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58157600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to Cell Phone page",
+            "match": {
+              "location": "EletronicSteps.iShouldNavigateToCellPhonePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3049333100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should add product to Cart and Place the Order Successfully",
+        "description": "",
+        "id": "electronic-menu-test;user-should-add-product-to-cart-and-place-the-order-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1215450700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183707200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I mouse hover to Electronics Tab",
+            "match": {
+              "location": "EletronicSteps.iMouseHoverToElectronicsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1127099500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I mouse hover and click on Cell Phones tab",
+            "match": {
+              "location": "EletronicSteps.iMouseHoverAndClickOnCellPhonesTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51047900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should navigate to Cell Phone page",
+            "match": {
+              "location": "EletronicSteps.iShouldNavigateToCellPhonePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134811200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on List view tab",
+            "match": {
+              "location": "EletronicSteps.iClickOnListViewTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2944335700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Nokia Lumia 1020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1020",
+                  "offset": 23
+                }
+              ],
+              "location": "EletronicSteps.iClickOnNokiaLumia(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48245600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see Nokia Lumia 1020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1020",
+                  "offset": 25
+                }
+              ],
+              "location": "EletronicSteps.iShouldSeeNokiaLumia(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45206900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see price $349.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "349",
+                  "offset": 20
+                },
+                {
+                  "val": "00",
+                  "offset": 24
+                }
+              ],
+              "location": "EletronicSteps.iShouldSeePrice$(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323531200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I change the Qty to 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 20
+                }
+              ],
+              "location": "EletronicSteps.iChangeTheQtyTo(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116090400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Add to Cart",
+            "match": {
+              "location": "EletronicSteps.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264885500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see The product is added to your shopping cart",
+            "match": {
+              "location": "EletronicSteps.iShouldSeeTheProductIsAddedToYourShoppingCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97956000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click cross",
+            "match": {
+              "location": "EletronicSteps.iClickCross()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1558914900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I mouse hover on Shopping cart and click on Go to Cart",
+            "match": {
+              "location": "EletronicSteps.iMouseHoverOnShoppingCartAndClickOnGoToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54819500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see text Shopping cart",
+            "match": {
+              "location": "EletronicSteps.iShouldSeeTextShoppingCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73347300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see Qty is 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 20
+                }
+              ],
+              "location": "EletronicSteps.iShouldSeeQtyIs(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21027717600,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//strong[text()\u003d\u0027$2,950.00\u0027])[2]\"}\n  (Session info: chrome\u003d113.0.5672.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [545b72c4afb98c02de11b53408334c37, findElement {using\u003dxpath, value\u003d(//strong[text()\u003d\u0027$2,950.00\u0027])[2]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\seema\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56758/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 545b72c4afb98c02de11b53408334c37\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy25.getText(Unknown Source)\r\n\tat com.nopcommerce.demo.pages.ShoppingCartPage.verifyPriceText(ShoppingCartPage.java:78)\r\n\tat com.nopcommerce.demo.steps.EletronicSteps.iShouldSeePriceIs$(EletronicSteps.java:100)\r\n\tat ✽.And I should see price is $698.00(ElectronicMenu.feature:27)\r\n",
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I should see price is $698.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "698",
+                  "offset": 23
+                },
+                {
+                  "val": "00",
+                  "offset": 27
+                }
+              ],
+              "location": "EletronicSteps.iShouldSeePriceIs$(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I click on check box of terms and service",
+            "match": {
+              "location": "EletronicSteps.iClickOnCheckBoxOfTermsAndService()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I click on Checkout",
+            "match": {
+              "location": "EletronicSteps.iClickOnCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I should see Welcome Please Sign In!",
+            "match": {
+              "location": "EletronicSteps.iShouldSeeWelcomePleaseSignIn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          },
+          {
+            "line": 10,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Electronic menu Test",
+    "description": "",
+    "id": "electronic-menu-test",
+    "keyword": "Feature",
+    "uri": "ElectronicMenu.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2753563500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 699652800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Computers\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Computers\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2567858600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 691554800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 61400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Electronics\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Electronics\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2481801700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 671024500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Apparel\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Apparel\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2917919100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 672225500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Digital downloads\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Digital downloads\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3158484700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 784693900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Books\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Books\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3327924000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 722982600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Jewelry\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Jewelry\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2495837500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should verify page navigation",
+        "description": "",
+        "id": "topmenu;user-should-verify-page-navigation;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 699826800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on tab menu from \"Gift Cards\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to computer page  \"Gift Cards\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "TopMenu",
+    "description": "As user I want to navigate to selected menu page",
+    "id": "topmenu",
+    "keyword": "Feature",
+    "uri": "TopMenu.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sanity"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
